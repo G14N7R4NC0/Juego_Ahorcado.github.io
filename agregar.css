@@ -1,0 +1,98 @@
+.logo{
+    height: 80px;
+}
+
+.img{
+    left: 10px;
+    width: 150px;
+    margin: 10px 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+#ingresar{
+    text-align: center;
+    margin-top: 5%;
+}
+
+::placeholder{
+    color: darkgrey;
+}
+
+#input-palabra{
+    border-radius: 0;
+    color: orange;
+    border-width: 5px;
+    background: rgb(99, 94, 94);
+    border-color: orange;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto Mono';
+    width: 370px;
+    height: 100px;
+}
+
+
+#ingresar p{
+    margin: 20px;
+    color: orange;
+    font-family: 'Roboto Mono';
+}
+
+.botones{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.guardar{
+    width: 170px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 24px;
+    background: rgb(126, 89, 34);
+    color: rgb(170, 163, 163);
+    font-size: 25px;
+    font-family: 'Roboto Mono';
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.guardar:hover{
+    background: orange;
+    color: rgb(99, 94, 94);
+    transform: scale(1.2);
+}
+
+.salir{
+    width: 170px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 24px;
+    background: rgb(126, 89, 34);
+    color: rgb(170, 163, 163);
+    font-size: 25px;
+    font-family: 'Roboto Mono';
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.salir:hover{
+    background: #ffa500;
+    color: rgb(99, 94, 94);
+    transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(170, 163, 163);
+}
+
+a:hover{
+    color: rgb(99, 94, 94);
+}

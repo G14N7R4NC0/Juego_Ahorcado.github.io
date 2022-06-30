@@ -1,0 +1,98 @@
+
+#logo{
+    height: 80px;
+}
+
+#img{
+    width: 150px;
+    margin: 10px 10px;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Imagenes/bfadba0a58aa84706881193b85cb296b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(170, 163, 163);
+}
+
+a:hover{
+    color: rgb(99, 94, 94);
+}
+
+.botones{
+    text-align: center;
+    margin-top: 20%;
+}
+
+#btn-iniciar{
+    width: 20%;
+    padding: 35px 0;
+    border: none;
+    border-radius: 15px;
+    background: rgb(126, 89, 34);
+    color: rgb(170, 163, 163);
+    font-size: 25px;
+    font-family: 'Roboto Mono';
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#btn-iniciar:hover{
+    background: orange;
+    color: rgb(99, 94, 94);
+    transform: scale(1.2);
+}
+
+#btn-agregar{
+    width: 15%;
+    padding: 15px 0;
+    margin: 40px;
+    border: none;
+    border-radius: 15px;
+    background: rgb(126, 89, 34);
+    color: rgb(170, 163, 163);
+    font-size: 15px;
+    font-family: 'Roboto Mono';
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#btn-agregar:hover{
+    background: orange;
+    color: rgb(99, 94, 94);
+    transform: scale(1.2);
+}
+
+footer {
+    
+    display: flex;
+    justify-content: center;
+}
+
+footer > label {
+    margin-right: 35px;
+    font-size: 25px;
+}
+
+#github{
+    height: 30px;
+}
+
+#linkedin{
+    height: 30px;
+}
+
+#email{
+    height: 30px;
+}
+
+#whatsapp{
+    height: 30px;
+}

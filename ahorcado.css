@@ -1,0 +1,88 @@
+.logo{
+    height: 80px;
+}
+
+.img{
+    width: 150px;
+    margin: 10px 10px;
+}
+
+.hidden{
+    color: transparent;
+}
+
+body{
+    background-color: #2e323d;
+}
+main{
+    height: 500px;
+    color: orange;
+    font-family: 'Roboto Mono';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    width: 30%;
+    color: orange;
+    font-family: 'Roboto Mono';
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+    top: auto;
+}
+
+#wordContainer{
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+#usedLetters{
+    font-size: 20px;
+}
+
+.letter{
+    margin: 0 7px;
+    position: relative;
+    text-align: center;
+}
+
+.letter::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    min-width: 12px;
+}
+
+#start{
+    margin-top: 20px;
+    appearance: none;
+    font-family: 'Roboto Mono';
+    border: none;
+    width: 300px;
+    padding: 10px;
+    background: rgb(126, 89, 34);
+    color: rgb(170, 163, 163);
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+#start:hover{
+    background: orange;
+    color: rgb(99, 94, 94);
+    transform: scale(1.2);
+}
+
